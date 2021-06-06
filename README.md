@@ -29,19 +29,19 @@ These dependencies need the conda forge channel to be installed
 conda install -c conda-forge ipykernel
 conda install -c conda-forge TA-Lib
 ```
-  
-
-<i>Install: https://mrjbq7.github.io/ta-lib/install.html</i>
-<i>Guide: https://blog.quantinsti.com/install-ta-lib-python/</i>
 
 ```
-Steps outlined in the guide:
+After TA-Lib is installed to your conda environment through -> conda install -c conda-forge TA-Lib
+Install: https://mrjbq7.github.io/ta-lib/install.html
+Guide: https://blog.quantinsti.com/install-ta-lib-python/
 
+Steps outlined in the guide:
 Dependencies
 To use TA-Lib for python, you need to have the TA-Lib already installed:
 
 Mac OS X
 $ brew install ta-lib
+
 Windows
 Download ta-lib-0.4.0-msvc.zip and unzip to C:\ta-lib
 
@@ -70,7 +70,7 @@ python -m ipykernel install --user --name=marketanalysis
 4. <i>Run in terminal:</i> ```jupyter notebook```
 
 
-<b>Without jupyter notebook:</b><br>
+<h3>Without jupyter notebook:</h3><br>
 
 
 <i>For TA: </i> ```python run_techincal_analysis.python```
