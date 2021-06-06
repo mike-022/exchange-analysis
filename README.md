@@ -15,10 +15,6 @@ Scripts and Jupyter Notebooks for analysis of exchange data from Coinbase, can b
 1. Download Miniconda or Anaconda. We need conda for running the TA-Lib library which will be unable to compile without it.
 2. Install TA-Lib dependencies.
 
-
-<i>Install: https://mrjbq7.github.io/ta-lib/install.html</i>
-<i>Guide: https://blog.quantinsti.com/install-ta-lib-python/</i>
-
   
 3. Create the environment and install dependencies
 
@@ -35,7 +31,32 @@ conda install -c conda-forge TA-Lib
 ```
   
 
-Installing the rest
+<i>Install: https://mrjbq7.github.io/ta-lib/install.html</i>
+<i>Guide: https://blog.quantinsti.com/install-ta-lib-python/</i>
+
+```
+Steps outlined in the guide:
+
+Dependencies
+To use TA-Lib for python, you need to have the TA-Lib already installed:
+
+Mac OS X
+$ brew install ta-lib
+Windows
+Download ta-lib-0.4.0-msvc.zip and unzip to C:\ta-lib
+
+Linux
+Download ta-lib-0.4.0-src.tar.gz and:
+
+$ untar and cd
+$ ./configure --prefix=/usr
+$ make
+$ sudo make install
+```
+
+<br>
+
+Installing all other dependencies
 ```
 pip install -r requirements.txt
 ```
