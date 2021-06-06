@@ -49,9 +49,9 @@ python -m ipykernel install --user --name=marketanalysis
 4. <i>Run in terminal:</i> ```jupyter notebook```
 
 
-<div>
-<b>Without jupyter notebook:</b>
-</div>
+<b>Without jupyter notebook:</b><br>
+
+
 <i>For TA: </i> ```python run_techincal_analysis.python```
 
   
