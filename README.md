@@ -52,8 +52,10 @@ python -m ipykernel install --user --name=marketanalysis
 <div>
 <b>Without jupyter notebook:</b>
 </div>
-<i>For TA: </i> ```python run_techincal_analysis.python```<br>
-<i>For Chart generation and export: </i>```python generate_candlestick_and_export.py1```<br>
+<i>For TA: </i> ```python run_techincal_analysis.python``` 
+<br>
+<i>For Chart generation and export: </i>```python generate_candlestick_and_export.py1``` 
+<br>
 
 
 Resources: TA-Lib: Python library for analysis of metrics
