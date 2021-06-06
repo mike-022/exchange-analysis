@@ -43,7 +43,7 @@ pip install -r requirements.txt
 This command will add our conda environment to the ipykernel if you are running through jupyter notebook
 
 ```
-python -m ipykernel install --user --name=onchainanalysis
+python -m ipykernel install --user --name=marketanalysis
 ```
   
 4. <i>Run in terminal:</i> ```jupyter notebook```
