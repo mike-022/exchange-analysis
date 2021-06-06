@@ -1,0 +1,5 @@
+cbpro
+jupyter
+finplot
+pandas
+numpy
