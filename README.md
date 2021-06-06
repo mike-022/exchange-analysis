@@ -56,7 +56,7 @@ python -m ipykernel install --user --name=marketanalysis
 
   
 
-<i>For Chart generation and export: </i>```python generate_candlestick_and_export.py1```
+<i>For Chart generation and export: </i>```python generate_candlestick_and_export.py```
 
   
   
