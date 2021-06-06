@@ -12,11 +12,11 @@ Scripts and Jupyter Notebooks for analysis of exchange data from Coinbase, can b
 
 <h3>Installation</h3>
 
-1. Download Miniconda or Anaconda. We need conda for running the TA-Lib library which will be unable to compile without it.
-2. Install TA-Lib dependencies.
+<h4>1. Download Miniconda or Anaconda. We need conda for running the TA-Lib library which will be unable to compile without it.</h4>
+<h4>2. Install TA-Lib dependencies.</h4>
 
   
-3. Create the environment and install dependencies
+<h4>3. Create the environment and install dependencies</h4>
 
 ```
 conda create --name marketanalysis
@@ -67,19 +67,14 @@ This command will add our conda environment to the ipykernel if you are running 
 python -m ipykernel install --user --name=marketanalysis
 ```
   
-4. <i>Run in terminal:</i> ```jupyter notebook```
+<h4>4. <i>Run in terminal:</i> ```jupyter notebook```</h4>
+
 
 
 <h3>Without jupyter notebook:</h3><br>
-
-
 <i>For TA: </i> ```python run_techincal_analysis.python```
 
-  
-
 <i>For Chart generation and export: </i>```python generate_candlestick_and_export.py```
-
-  
   
 
 Resources: TA-Lib: Python library for analysis of metrics
