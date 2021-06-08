@@ -67,12 +67,13 @@ This command will add our conda environment to the ipykernel if you are running 
 python -m ipykernel install --user --name=marketanalysis
 ```
   
-<h4>4. <i>Run in terminal:</i> ```jupyter notebook```</h4>
+<h4>4. <i>Run in terminal:</i> </h4> ```jupyter notebook```
 
 
 
 <h3>Without jupyter notebook:</h3><br>
-<i>For TA: </i> ```python run_techincal_analysis.python```
+
+<i>For TA:</i> ```python run_techincal_analysis.python```
 
 <i>For Chart generation and export: </i>```python generate_candlestick_and_export.py```
   
